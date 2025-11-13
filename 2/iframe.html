@@ -4,7 +4,9 @@
 <head>
     <title>iframe이 성가신 이유</title>
     <style>
-        * {
+        html,
+        body,
+        iframe {
             width: 100%;
             height: 100%;
             border: none;
@@ -14,6 +16,9 @@
 </head>
 
 <body>
+    <p style="opacity: 0;">이 태그는 투명합니다.</p>
+    <p style="display: none;">이 태그는 표시되지 않습니다.</p>
+    <p>이 태그는 표시됩니다.</p>
     <iframe src="https://smu-momentum.github.io/crawling-study/2/" />
 </body>
 
